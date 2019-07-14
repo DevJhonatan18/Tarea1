@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package entidades;
+package cjava.entidades;
 
 import java.util.ArrayList;
-import util.MisConstantes;
-import util.MisConstantesEnum;
+import cjava.util.MisConstantes;
+import cjava.util.MisConstantesEnum;
 
 /**
  *
@@ -80,7 +80,7 @@ public class Evento {
 
     public void agregarAsistente(Asistente a) {
 
-        if (existe(a.getCodigo())) {
+        if (!existe(a.getCodigo())) {
             this.asistentes.add(a);
         }
 

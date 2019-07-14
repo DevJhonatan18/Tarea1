@@ -5,13 +5,16 @@
  */
 package entidades;
 
+import cjava.entidades.Hora;
+import cjava.entidades.Asistente;
+import cjava.entidades.Evento;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
-import util.MisConstantes;
+import cjava.util.MisConstantes;
 
 /**
  *

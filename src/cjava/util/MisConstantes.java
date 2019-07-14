@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package util;
+package cjava.util;
 
-import entidades.Evento;
-import entidades.Hora;
+import cjava.entidades.Evento;
+import cjava.entidades.Hora;
 import java.util.ArrayList;
 
 /**
